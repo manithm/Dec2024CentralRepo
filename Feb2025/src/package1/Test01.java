@@ -7,11 +7,17 @@ public class Test01 {
 		c=a+b;
 		return c;
 	}
+	public int sub(int a,int b) {
+		c=a-b;
+		return c;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Test01 t01=new Test01();
 		int x= t01.sum(5, 2);
 		System.out.println("sum is "+x);
+		int y= t01.sub(5, 2);
+		System.out.println("sub is "+y);
 		
 	}
 
